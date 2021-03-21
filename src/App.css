@@ -1,14 +1,11 @@
 html {
   font-family: system-ui, sans-serif;
-  font-size: 62.5%;
 }
 
 body {
   margin: 0;
-  padding: 0 1.5rem;
   background-color: hsl(213, 13%, 18%);
   overflow: hidden;
-  font-size: 2.1rem;
 }
 
 svg {
@@ -23,9 +20,8 @@ svg {
 
 .header {
   display: flex;
-  /* text-align: center; */
   justify-content: center;
-  align-items:flex-start;
+  align-items:baseline;
   color: white;
 }
 .header a {
@@ -35,12 +31,14 @@ svg {
   padding: 12px;
   text-decoration: none;
   border-radius: 6px;
-  margin-right: 8px;
+  margin-right: 18px;
+  white-space: nowrap;
+  font-size: clamp(13px, 0.8vw + 1rem, 26px);
 }
 .header a:hover {
   background-color: hsl(213, 13%, 23%);
 }
 .header p {
-  font-size: 1.6rem;
   text-align: center;
+  font-size: clamp(13px, 0.8vw + 0.8rem, 20px);
 }

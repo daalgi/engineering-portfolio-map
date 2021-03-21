@@ -3,7 +3,7 @@ const Header = () =>
         <a href="https://daalgi.github.io/my-site/" target="_blank">
             David A.G.
         </a>
-        <p>Engineering portfolio: project types by country</p>
+        <p>Engineering Portfolio Map</p>
     </div>
 
 export default Header

@@ -13,9 +13,10 @@ const Tooltip = ({ data }) =>
                             s += ' - ' + item.subfield
                         if (item.type)
                             s += ' - ' + item.type
+                        if (item.number)
+                            s += ` (${item.number})`
                         return <li key={i}>{s}</li>
-                    }
-                    )}
+                    })}
                 </ul>
             </>
         )}
